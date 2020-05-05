@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require './lib/solar_calc'
+
+SolarCalc::CLI.new.get_location
